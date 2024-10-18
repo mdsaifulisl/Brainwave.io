@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+:root{
+
+    --black-color:#161C2D;
+    --black2-color:#0A0D17;
+    --main-batton-color:#473BF0;
+
+    --main-color:#fff;
+    --main2-color:#F4F7FA;
+    --main3-color:#E7E9ED;
+    --main4-color:#FDFDFF;
+    --green-color:#68D585;
+    
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.heading{
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--black2-color);
+}
+
+
+section{
+    padding: 1.5rem 7%;
+}
+
+
+
+@media (max-width:1320px){
+    
+}
+@media (max-width:1140px){
+    .heading{
+        font-size: 50px;
+    }
+}
+@media (max-width:960px){
+    .heading{
+        font-size: 40px;
+       
+    }
+
+    section{
+        padding: 1.5rem 2rem;  
+    }
+}
+@media (max-width:720px){
+    .heading{
+        font-size: 35px;
+    }
+}
+@media (max-width:540px){
+    
+}
